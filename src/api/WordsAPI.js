@@ -56,7 +56,7 @@ export function WordsAPI() {
         onChange={(event) => {
           setWord(event.target.value);
         }} />
-      {word}
+      {/* {word} */}
 
       {/* <button onClick={() => fetchExcuse("pronunciation")}>pronunciation</button> */}
       <button onClick={() => fetchExcuse("definitions")}>definition</button>
@@ -67,7 +67,7 @@ export function WordsAPI() {
       <h2>definition: </h2>
       {def.map(deff => (
         <li>{deff}</li>
-        
+
       ))}
     </div>
   );
