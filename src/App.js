@@ -1,11 +1,10 @@
-import { WordsAPI } from './api/WordsAPI';
 import './App.css';
+import { Welcome } from './pages/Welcome';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola</h1>
-      <WordsAPI />
+      <Welcome />
     </div>
   );
 }

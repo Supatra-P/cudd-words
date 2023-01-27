@@ -1,0 +1,124 @@
+.container-head {
+    padding: 4vw 20vw;
+}
+
+/* 01 --title-- */
+.welcome {
+    text-align: start;
+    font-weight: 900;
+    line-height: 0%;
+    color: var(--red);
+}
+
+.text-sm {
+    font-size: 2.5vw;
+}
+
+.text-md {
+    font-weight: 900;
+    line-height: 20%;
+    font-size: 3.5vw;
+}
+
+.text-lg {
+    font-size: 6.5vw;
+}
+
+/* 02 --input-- */
+.enter-word {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.enter-word input {
+    width: 100%;
+    max-width: calc(100vw/1.8);
+    padding: .8vw 1.5vw;
+    border: .3vw solid var(--red);
+    border-radius: .5vw;
+    font-size: 1.8vw;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.enter-word input:hover {
+    border: .3vw solid var(--black);
+    transition: all .7s ease;
+}
+
+.enter-word input:focus {
+    border: .3vw solid var(--black);
+}
+
+.enter-word button {
+    width: 15vw;
+    margin-top: 3vw;
+    padding: .8vw 0;
+    border: none;
+    border-radius: .5vw;
+    background-color: var(--red);
+    font-size: 1.8vw;
+    font-weight: 500;
+    color: var(--white);
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+.enter-word button:hover {
+    background-color: var(--black);
+    font-size: 1.85vw;
+    color: var(--blue);
+    box-shadow: 0px 0px 0px 2px var(--black);
+    transition: all .7s ease;
+}
+
+/* 03 --details-- */
+.container-body {
+    padding: 0 16vw;
+}
+
+.def-opt button {
+    width: calc(100%/4);
+    padding: .8vw 0;
+    border: .3vw solid var(--red);
+    border-radius: .5vw .5vw 0 0;
+    background-color: var(--white);
+    font-size: 1.8vw;
+    font-weight: 500;
+    color: var(--red);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.def-opt button:hover {
+    background-color: var(--red);
+    color: var(--white);
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+.def-opt button:focus {
+    background-color: var(--red);
+    color: var(--white);
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+.def-des {
+    margin-bottom: 10vw;
+    padding: 1vw;
+    border: .3vw solid var(--red);
+    border-radius: 0 0 .5vw .5vw;
+    background-color: var(--white);
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 200%;
+    transition: all .7s ease;
+}
+
+.def-li {
+    list-style-type: circle;
+    transition: all .7s ease;
+}
