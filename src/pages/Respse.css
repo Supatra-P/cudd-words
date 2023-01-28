@@ -1,0 +1,51 @@
+@media only screen and (max-width: 425px) {
+
+    .container-head {
+        padding: 50vw 16vw 0 16vw;
+    }
+
+    .text-sm {
+        font-size: 4vw;
+    }
+    
+    .text-md {
+        font-size: 5vw;
+    }
+    
+    .text-lg {
+        font-size: 10vw;
+    }
+
+    /* 02 --input-- */
+    .enter-word input {
+        margin-top: 3vh;
+        padding: 1.2vw 1.5vw;
+        max-width: 100vw;
+        font-size: 3.5vw;
+    }
+
+    .enter-word button {
+        width: 24vw;
+        margin: 6vw 0 18vw 0;
+        padding: 1.2vw 0;
+        font-size: 3vw;
+    }
+
+    .enter-word button:hover {
+        font-size: 3.05vw;
+    }
+
+    /* 03 --details-- */
+    .container-body {
+        padding: 0 6vw;
+    }
+    .def-opt button {
+        padding: 1.2vw 0;
+        font-size: 3vw;
+    }
+
+    .def-des {
+        padding: 2vw;
+        font-size: 2.5vw;
+    }
+}

@@ -3,7 +3,6 @@ import { useState } from "react";
 
 /**
  * Word
- * - pronunciation
  * - definition
  * - synonyms
  * - antonyms
@@ -28,26 +27,27 @@ export function useWords() {
     }
   }
 
-
   const getDef = (opt) => {
     axios.request(
       {
         method: 'GET',
         url: `https://wordsapiv1.p.rapidapi.com/words/${word}/${opt}`,
+        // baseURL: 'http://localhost:8000/words',
+        // url: `${word}/${opt}`,
         headers: {
           'X-RapidAPI-Host': 'wordsapiv1.p.rapidapi.com',
-          'X-RapidAPI-Key': '31dadf50d4mshbf5f31120bce8e8p14f623jsn07a78d74c788'
+          'X-RapidAPI-Key': process.env.REACT_APP_API_KEY
         }
       }
     ).then(function (response) {
       // console.log(word);
-      // console.log(response.data[excuse]);
+      // console.log(response.data);
 
       const dataResults = response.data.results;
       // console.log(response.data.results.map(e => e));
 
       if (opt === "") {
-        dataResults.map((e, key) => genDef.push(e.partOfSpeech+' - '+e.definition));
+        dataResults.map((e, key) => genDef.push(e.partOfSpeech + ' - ' + e.definition));
         setDef(genDef);
       } else {
         setDef(response.data[opt]);
