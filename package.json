@@ -7,9 +7,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.3",
-    "dotenv": "^16.0.3",
     "netlify-lambda": "^2.0.15",
-    "nodemon": "^2.0.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
@@ -17,8 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:backend": "nodemon inde.js",
-    "start:frontend": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "lambda-serve": "netlify-lambda serve functions",
     "lambda-build": "netlify-lambda build functions",

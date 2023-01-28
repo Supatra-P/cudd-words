@@ -36,7 +36,7 @@ export function useWords() {
         // url: `${word}/${opt}`,
         headers: {
           'X-RapidAPI-Host': 'wordsapiv1.p.rapidapi.com',
-          'X-RapidAPI-Key': process.env.REACT_APP_API_KEY
+          'X-RapidAPI-Key': '31dadf50d4mshbf5f31120bce8e8p14f623jsn07a78d74c788'
         }
       }
     ).then(function (response) {
