@@ -1,5 +1,6 @@
-import { useWords } from "../api/useWords";
+import { useWords } from "../component/useWords";
 import '../pages/Styles.css';
+import '../pages/Respse.css';
 
 export function Welcome() {
     const { def, handleChange, updatedWord, handleUpdate, getDef } = useWords();

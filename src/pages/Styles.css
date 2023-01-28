@@ -18,6 +18,7 @@
     font-weight: 900;
     line-height: 20%;
     font-size: 3.5vw;
+    transition: all 1s ease;
 }
 
 .text-lg {
@@ -54,7 +55,7 @@
 
 .enter-word button {
     width: 15vw;
-    margin-top: 3vw;
+    margin: 3vw 0 6vw 0;
     padding: .8vw 0;
     border: none;
     border-radius: .5vw;
@@ -75,6 +76,7 @@
 }
 
 /* 03 --details-- */
+
 .container-body {
     padding: 0 16vw;
 }
