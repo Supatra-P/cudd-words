@@ -59,5 +59,5 @@ export function useWords() {
     })
   };
 
-  return { def, handleChange, handleUpdate, getDef };
+  return { def, handleChange, updatedWord, handleUpdate, getDef };
 };
