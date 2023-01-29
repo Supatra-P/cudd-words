@@ -15,11 +15,7 @@
 }
 
 .text-md {
-    font-weight: 900;
-    line-height: 20%;
-    font-size: 3.5vw;
     display: none;
-    transition: all 1s ease;
 }
 
 .text-lg {
