@@ -14,3 +14,4 @@ A word's meaning can be misleading and unhelpful. Cuddwords can have their own s
 ### Demo
 <img width="1440" alt="cw1" src="./src/img/cw2.png">
 <img width="1440" alt="cw1" src="./src/img/cw3.png">
+<img width="480" alt="cwb1" src="./src/img/cwb1.png"> <img width="480" alt="cwb2" src="./src/img/cwb2.png"> <img width="480" alt="cwb3" src="./src/img/cwb3.png">
