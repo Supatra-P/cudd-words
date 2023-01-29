@@ -1,4 +1,4 @@
-import { useWords } from "../component/useWords";
+import { useWords } from "../components/useWords";
 import '../pages/Styles.css';
 import '../pages/Respse.css';
 
@@ -24,7 +24,7 @@ export function Welcome() {
             </div>
 
             <div className="container-body">
-                <p className="text-md"> {updatedWord}</p>
+                {/* <p className="text-md"> {updatedWord}</p> */}
                 <div className="def-opt">
                     <button onClick={() => getDef("")}>definition</button>
                     <button onClick={() => getDef("synonyms")}>synonyms</button>
