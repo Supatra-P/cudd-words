@@ -1,5 +1,5 @@
 .container-head {
-    padding: 4vw 20vw;
+    padding: 10vw 20vw 2vw 20vw;
 }
 
 /* 01 --title-- */
@@ -94,14 +94,12 @@
 .def-opt button:hover {
     background-color: var(--red);
     color: var(--white);
-    cursor: pointer;
     transition: all .7s ease;
 }
 
 .def-opt button:focus {
     background-color: var(--red);
     color: var(--white);
-    cursor: pointer;
     transition: all .7s ease;
 }
 
@@ -114,10 +112,8 @@
     font-size: 1.4vw;
     font-weight: 400;
     line-height: 200%;
-    transition: all .7s ease;
 }
 
 .def-li {
     list-style-type: circle;
-    transition: all .7s ease;
 }
