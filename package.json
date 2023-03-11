@@ -1,6 +1,8 @@
 {
   "name": "words-api-test",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "author": "Supatra Pin",
+  "description": "Web application for dictionary.",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
