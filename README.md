@@ -2,7 +2,7 @@
 
 <img width="1440" alt="cw1" src="./src/img/cw1.png">
 
-Cuddwords is a dictionary web application that provides some uncommon information, including some elementary word information
+Cuddwords is a dictionary web application that provides some uncommon information, including some elementary word information.
 
 A word's meaning can be misleading and unhelpful. Cuddwords can have their own specific information on definitions, synonyms, antonyms, and examples of clearly defined words.
 
